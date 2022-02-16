@@ -1,0 +1,52 @@
+.container {
+
+    img {
+        width: 100%;
+        height: 400px;      
+    }
+
+    .post {
+        max-width: 720px;
+        margin: 0 auto;
+
+        padding: 2rem 0;
+
+        h1 {
+            margin: 2rem 0;
+            color: var(--heading);
+        }
+
+        a {
+            color:var(--highlight);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        p {
+            margin: 1.5rem 0;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                margin: 0 1rem 0 0;
+
+                display: flex;
+                align-items: center;
+
+                svg {
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+
+        article {
+            margin: 2rem 0;
+        }
+
+    }
+}
